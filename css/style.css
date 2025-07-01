@@ -271,6 +271,7 @@ section {
 .blog {
   background-color: var(--dark);
   color: var(--pure);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 77% 89%, 0 100%);
 }
 .blog h1 {
   text-align: center;
@@ -284,13 +285,33 @@ section {
   justify-content: center;
   margin-bottom: 50px;
 }
+.card-3 {
+  width: 300px;
+  margin-left: 3rem;
+  background-color: var(--pure);
+  color: var(--ternary);
+  border-radius: 20px;
+}
+.card-3 img {
+  width: 300px;
+  border: radius top 20px;
+}
 .card-warpper-3 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -350px;
 }
-.card-warpper-3 .card {
-  width: 300px;
+.card-4 {
+  display: flex;
 }
-.card-warpper-3 .card img {
-  width: 300px;
+.card-content {
+  padding: 10px;
+  font-family: sans-serif;
+  line-height: 1.5rem;
+}
+.card-content a {
+  text-decoration: none;
+  color: var(--ternary);
 }
